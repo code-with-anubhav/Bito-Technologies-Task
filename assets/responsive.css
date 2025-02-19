@@ -74,7 +74,6 @@
   .middle {
     width: 100%;
     height: 50%;
-    margin-bottom: 2vmax;
   }
 
   .last {
@@ -126,7 +125,7 @@
   }
 
   .team {
-    width: 100%;
+    width: 102%;
     height: 30%;
     padding: 2vmax 2vmax;
   }
@@ -173,7 +172,8 @@
     cursor: pointer;
   }
 
-  .service {
+  .services {
+    padding: 5vmax 5.5vmax;
     justify-content: space-evenly;
   }
 
@@ -245,7 +245,7 @@
   }
 
   .social div {
-    padding: 1vmax 1.8vmax;
+    padding: 1vmax 1.2vmax;
   }
 
   .social div i {
