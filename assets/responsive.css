@@ -1,0 +1,264 @@
+@media screen and (max-width: 850px) {
+  .header {
+    display: flex;
+    padding: 0.5vmax 3vmax;
+    justify-content: space-between;
+  }
+
+  .header h1 {
+    font-size: 2.5vmax;
+  }
+  .hamberger {
+    font-size: 3.5vmax;
+    display: block;
+  }
+  .pages {
+    width: 40%;
+    position: absolute;
+    top: 9vmax;
+    right: 0;
+    border-left: 3px solid #b74b4b;
+    border-bottom-left-radius: 2vmax;
+    display: flex;
+    padding: 2vmax solid;
+    background-color: #161616;
+    border-top: 0.5px solid #dadada;
+    flex-direction: column;
+    display: none;
+  }
+
+  .pages a {
+    display: block;
+    font-size: 2vmax;
+    margin: 3vmax 2vmax;
+    text-align: left;
+  }
+
+  .pages a:hover,
+  .pages .active {
+    color: #b74b4b;
+    padding: 1vmax;
+    border-radius: 0.5vmax;
+    border-bottom: 0.5vmax solid #b74b4b;
+  }
+
+  .pages button {
+    display: block;
+    margin: 3vmax 2vmax;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    height: 50%;
+    margin-top: 10vmax;
+    padding: 2vmax 5vmax;
+  }
+
+  .up {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .up h1 {
+    font-size: 1.8vmax;
+  }
+
+  .circle {
+    margin-top: 2vmax;
+  }
+
+  .middle {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 2vmax;
+  }
+
+  .last {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .last-para {
+    font-size: 1vmax;
+  }
+
+  .last-third {
+    font-size: 1vmax;
+  }
+
+  .brand {
+    height: 60%;
+    padding: 0 5vmax;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-details {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 5vmax;
+    gap: 5vmax;
+  }
+
+  .brand-details img {
+    height: 10vmax;
+    width: 8vmax;
+  }
+
+  .brand-details h3 {
+    font-size: 1vmax;
+  }
+
+  .brand-details p {
+    font-size: 1vmax;
+  }
+  .flow-left {
+    margin-left: 15vmax;
+  }
+
+  hr {
+    margin: 0 15px;
+  }
+
+  .team {
+    width: 100%;
+    height: 30%;
+    padding: 2vmax 2vmax;
+  }
+
+  .text-content-left h2 {
+    font-size: 1.5vmax;
+  }
+
+  .image-right {
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .crousal{
+    padding: 3vmax 6vmax;
+    overflow: hidden;
+  }
+
+  .crousal-text {
+    width: 100%;
+    height: 50%;
+  }
+  .crousal-text p {
+    width: 100%;
+    font-size: 1.5vmax;
+  }
+
+  .image-crousal {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vmax;
+    margin-top: 2vmax;
+    margin-bottom: 10vmax;
+  }
+
+  .image-crousal div {
+    height: 30%;
+  }
+
+  .crousal button {
+    padding: 0.8vmax 1vmax;
+    cursor: pointer;
+  }
+
+  .service {
+    justify-content: space-evenly;
+  }
+
+  .services-heading h2 {
+    font-size: 2.5vmax;
+    margin-bottom: 1vmax;
+  }
+
+  .services-heading p {
+    font-size: 1vmax;
+    margin-bottom: 3vmax;
+  }
+
+  .services-detail {
+    padding: 2vmax 0;
+    justify-content: space-between;
+  }
+
+  .services-detail h2 {
+    width: 20%;
+    font-size: 1.5vmax;
+  }
+
+  .services-detail p {
+    width: 70%;
+    font-size: 1vmax;
+  }
+
+  .services-detail div {
+    width: 20%;
+  }
+
+  .services button {
+    margin-top: 2vmax;
+  }
+
+  .last-card {
+    width: 100%;
+    padding: 3vmax 1.5vmax;
+  }
+
+  .last-card input {
+    width: 100%;
+    padding: 1vmax 1.5vmax;
+  }
+
+  .footer {
+    height: 50%;
+    padding: 1vmax 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer a {
+    font-size: 1.5vmax;
+  }
+
+  .footer .div1 {
+    width: 60%;
+    gap: 1vmax;
+  }
+
+  .footer .div1 p {
+    font-size: 1.2vmax;
+  }
+
+  .footer h3 {
+    font-size: 2vmax;
+  }
+
+  .social div {
+    padding: 1vmax 1.8vmax;
+  }
+
+  .social div i {
+    font-size: 2vmax;
+  }
+
+  .footer a:hover {
+    color: #b74b4b;
+    border-radius: 0.5vmax;
+    border-bottom: 0.5vmax solid #b74b4b;
+  }
+
+  .copy-right {
+    font-size: 1.2vmax;
+  }
+}
